@@ -13,6 +13,8 @@ a {
   text-decoration: none;
 }
 
+/* header */
+
 header {
   display: flex;
   align-items: center;
@@ -56,4 +58,147 @@ nav ul li {
 header a {
   font-size: 0.9rem;
   color: #4a4a4a;
+}
+
+/* banner */
+
+.main-banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #d8d8d8;
+}
+
+.banner-img {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.banner-img .main-img img {
+  width: 100%;
+}
+
+.learn {
+  width: 40%;
+}
+
+.calltoaction h1 {
+  color: #4a4a4a;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.calltoaction h3 {
+  color: #4a4a4a;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.calltoaction-button {
+  background-color: #4a4a4a;
+  text-align: center;
+  padding: 0.5rem 0;
+  width: 18rem;
+  margin-top: 1.5rem;
+}
+
+.calltoaction-button a {
+  color: #fff;
+}
+
+/* main content */
+
+.main-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #f3f5f5;
+}
+
+.main-info {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.main-info .main-img img {
+  width: 100%;
+
+}
+
+.teaser {
+  margin: 2rem 0;
+  color: #4a4a4a;
+}
+
+.teaser h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.teaser p {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.teaser .author {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.featured-info {
+  width: 40%;
+  margin: 2rem 0;
+  border-left: 1px solid #e0e2e2;
+}
+
+.info h3 {
+  font-size: 1.2rem;
+  color: #4a4a4a;
+  font-weight: 600;
+}
+
+.info p {
+  font-size: 1rem;
+  color: #4a4a4a;
+  font-weight: lighter;
+}
+
+.info a {
+  font-size: 1rem;
+  color: #4a90e2;
+  font-weight: 400;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  line-height: 1.7;
+}
+
+.orientation {
+  border-bottom: 1px solid #e0e2e2;
+  margin-bottom: 0.1rem;
+  padding: 0 1rem 1rem 1rem;
+}
+.campus {
+  border-top: 1px solid #e0e2e2;
+  padding: 1rem;
+}
+
+.keynote {
+  background-color: #d8d8d8;
+  padding: 1rem;
+}
+
+.info img {
+  width: 35%;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.info .info-content {
+  width: 65%;
 }
