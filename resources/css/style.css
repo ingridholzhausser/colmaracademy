@@ -1,0 +1,59 @@
+/* General */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  padding: 0 1.5rem;
+  background-color: #fff;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  margin-right: 0.5rem;
+  height: 2rem;
+}
+
+header .logo-text {
+  text-transform: uppercase;
+  color: #9b9b9b;
+  font-size: 1rem;
+}
+
+header .logo-text span {
+  text-transform: uppercase;
+  color: #4a4a4a;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 0 1rem;
+  color: #4a4a4a;
+}
+
+header a {
+  font-size: 0.9rem;
+  color: #4a4a4a;
+}
