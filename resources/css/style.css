@@ -155,13 +155,13 @@ header a {
 }
 
 .info h3 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #4a4a4a;
   font-weight: 600;
 }
 
 .info p {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #4a4a4a;
   font-weight: lighter;
 }
@@ -201,4 +201,72 @@ header a {
 
 .info .info-content {
   width: 65%;
+}
+
+/* learning & courses */
+
+.learning {
+  background-color: #eaebec;
+  padding: 2rem 4.5rem;
+  color: #4a4a4a;
+}
+
+.learning h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.courses {
+  display: flex;
+}
+
+.course {
+  background-color: #fff;
+  color: #4a4a4a;
+  width: 30%;
+}
+
+.software,
+.computerart,
+.design {
+  margin: 0 2rem 2rem 0;
+}
+
+.data,
+.business,
+.marketing {
+  background-color: #fff;
+  color: #4a4a4a;
+  width: 30%;
+  margin: 0 2rem 0 0;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.course-content {
+  text-align: left;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.course h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.course h4 {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.course p {
+  font-size: 0.8rem;
+  font-weight: lighter;
 }
