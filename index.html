@@ -12,23 +12,30 @@
 <!-- Header section -->
 
 <header>
-  <div class="image-container logo">
-    <img src="resources/images/ic-logo.svg">
-    <span class="logo-text"><span>Colmar</span>Academy</span>
-  </div>
-  <!-- logo-big
-  <div class="image-container logo-small">
-    <img src="resources/images/ic-logo.svg">
-  </div>
--->
-  <nav>
-    <ul>
-      <li><a href="#">On campus</a></li>
-      <li><a href="#">Online</a></li>
-      <li><a href="#">For companies</a></li>
-      <li><a href="#">Sign in</a></li>
-    </ul>
-  </nav>
+
+    <div class="desktop-logo">
+      <img src="resources/images/ic-logo.svg">
+      <span class="logo-text"><span>Colmar</span>Academy</span>
+    </div>
+
+    <nav class="desktop">
+      <ul>
+        <li><a href="#">On campus</a></li>
+        <li><a href="#">Online</a></li>
+        <li><a href="#">For companies</a></li>
+        <li><a href="#">Sign in</a></li>
+      </ul>
+    </nav>
+
+    <nav class="mobile">
+      <ul>
+        <li><a href="#"><img src="resources/images/ic-logo.svg"></a></li>
+        <li><a href="#"><img src="resources/images/ic-on-campus.svg"></a></li>
+        <li><a href="#"><img src="resources/images/ic-online.svg"></a></li>
+        <li><a href="#"><img src="resources/images/ic-login.svg"></a></li>
+      </ul>
+    </nav>
+
 </header>
 
 <!-- Banner section -->
@@ -69,7 +76,7 @@
 
 <!-- Featured info section -->
 
-<div class="featured-info">
+<div class="info-desktop">
 
   <div class="info orientation">
     <img src="resources/images/information-orientation.jpg">
@@ -100,6 +107,37 @@
 
 </div>
 
+<div class="info-mobile">
+
+  <div class="info orientation">
+    <img src="resources/images/information-orientation-mobile.jpg">
+      <div class="info-content">
+        <h3>Orientation date</h3>
+        <p>Tue 10/11 & Wed 10/12: 8am -3pm</p>
+        <p class="more"><a href="#">Read more</a></p>
+      </div>
+    </div>
+
+  <div class="info campus">
+    <img src="resources/images/information-campus-mobile.jpg">
+      <div class="info-content">
+        <h3>Our Campus</h3>
+        <p>Find which campus is close by you</p>
+        <p class="more"><a href="#">Read more</a></p>
+      </div>
+    </div>
+
+  <div class="info keynote">
+    <img src="resources/images/information-guest-lecture-mobile.jpg">
+      <div class="info-content">
+        <h3>Our guest lecture</h3>
+        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+        <p class="more"><a href="#">Read more</a></p>
+      </div>
+    </div>
+
+</div>
+
 <!-- end of main content section -->
 </div>
 
@@ -107,11 +145,15 @@
 
 <div class="learning">
 
+  <!-- learning desktop section -->
+
+  <div class="learning-desktop">
+
   <h2>Start learning</h2>
 
-  <div class="courses">
+  <div class="courses-desktop">
 
-    <div class="course software">
+    <div class="course-desktop software">
       <img src="resources/images/course-software.jpg">
       <div class="course-content">
         <h3>Software engineering</h3>
@@ -120,7 +162,7 @@
       </div>
     </div>
 
-    <div class="course computerart">
+    <div class="course-desktop computerart">
       <img src="resources/images/course-computer-art.jpg">
       <div class="course-content">
         <h3>Computer art</h3>
@@ -129,7 +171,7 @@
       </div>
     </div>
 
-    <div class="course design">
+    <div class="course-desktop design">
       <img src="resources/images/course-design.jpg">
       <div class="course-content">
         <h3>Design</h3>
@@ -140,9 +182,9 @@
 
   </div>
 
-  <div class="courses">
+  <div class="courses-desktop">
 
-    <div class="course data">
+    <div class="course-desktop data">
       <img src="resources/images/course-data.jpg">
       <div class="course-content">
         <h3>Data</h3>
@@ -151,7 +193,7 @@
       </div>
     </div>
 
-    <div class="course business">
+    <div class="course-desktop business">
       <img src="resources/images/course-business.jpg">
       <div class="course-content">
         <h3>Business</h3>
@@ -160,7 +202,7 @@
       </div>
     </div>
 
-    <div class="course marketing">
+    <div class="course-desktop marketing">
       <img src="resources/images/course-marketing.jpg">
       <div class="course-content">
         <h3>Marketing</h3>
@@ -173,9 +215,69 @@
 
 </div>
 
+<!-- learning desktop section -->
+
+<!-- learning mobile section -->
+
+<div class="learning-mobile">
+
+<h2>Start learning</h2>
+
+<div class="courses-mobile">
+
+  <div class="course-mobile software">
+    <div class="course-content">
+      <h3>Software engineering</h3>
+    </div>
+  </div>
+
+  <div class="course-mobile computerart">
+    <div class="course-content">
+      <h3>Computer art</h3>
+    </div>
+  </div>
+
+  <div class="course-mobile design">
+    <div class="course-content">
+      <h3>Design</h3>
+    </div>
+  </div>
+
+</div>
+
+<div class="courses-mobile">
+
+  <div class="course-mobile data">
+    <div class="course-content">
+      <h3>Software engineering</h3>
+    </div>
+  </div>
+
+  <div class="course-mobile business">
+    <div class="course-content">
+      <h3>Computer art</h3>
+    </div>
+  </div>
+
+  <div class="course-mobile marketing">
+    <div class="course-content">
+      <h3>Design</h3>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+<!-- learning mobile section -->
+
+</div>
+
 <!-- Thesis section -->
 
 <div class="thesis-exhibit">
+
+  <div class="thesis-desktop">
 
   <h2>Thesis exhibit</h2>
 
@@ -183,7 +285,7 @@
 
     <div class="main-thesis">
       <div class="main-vid">
-        <video width="320" controls> <!-- height="240" -->
+        <video width="320" controls> <!-- ? height="240" ? -->
           <source src="resources/videos/thesis.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -218,17 +320,51 @@
 
 </div>
 
+<!-- Thesis mobile section -->
+
+<div class="thesis-mobile">
+
+<h2>Thesis exhibits</h2>
+
+<div class="thesis-mobile-content">
+
+  <div class="main-thesis">
+    <div class="main-vid">
+      <video width="320" controls> <!-- height="240" -->
+        <source src="resources/videos/thesis.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
 <!-- Footer -->
 
-<footer>
-  <span class="copyright">&copy 2016 Colmar Academy. All rights reserved</span>
-  <nav>
-    <ul>
-      <li><a href="#">Terms</a></li>
-      <li><a href="#">Privacy</a></li>
-    </ul>
-  </nav>
-</footer>
+<div class="footer-desktop">
+  <footer>
+    <span class="copyright">&copy 2016 Colmar Academy. All rights reserved</span>
+    <nav>
+      <ul>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </nav>
+  </footer>
+</div>
+
+<div class="footer-mobile">
+  <footer>
+    <span class="copyright">&copy 2016 Colmar Academy. All rights reserved</span>
+  </footer>
+</div>
 
 </body>
 </html>
