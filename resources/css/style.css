@@ -355,3 +355,31 @@ header a {
   height: auto;
   margin-right: 1rem;
 }
+
+/* footer */
+
+footer {
+  display: flex;
+  background-color: #f3f5f5;
+  padding: 1rem 1rem 2rem 1.5rem;
+  font-size: 0.6rem;
+  color: #4a4a4a;
+  font-weight: lighter;
+  border-top: 1px solid #e0e2e2;
+}
+
+footer .copyright {
+  flex-grow: 1;
+}
+
+footer nav ul {
+  display: flex;
+}
+
+footer ul li {
+  padding: 0 0.5rem;
+}
+
+footer a {
+  color: #4a4a4a;
+}
