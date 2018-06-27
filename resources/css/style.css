@@ -13,7 +13,7 @@ a {
   text-decoration: none;
 }
 
-/* header */
+/* Header section */
 
 header {
   display: flex;
@@ -60,7 +60,7 @@ header a {
   color: #4a4a4a;
 }
 
-/* banner */
+/* Banner section */
 
 .main-banner {
   display: flex;
@@ -107,7 +107,7 @@ header a {
   color: #fff;
 }
 
-/* main content */
+/* Main content section */
 
 .main-content {
   display: flex;
@@ -147,6 +147,8 @@ header a {
   margin-top: 2rem;
 }
 
+/* Featured info section */
+
 .featured-info {
   width: 40%;
   margin: 2rem 0;
@@ -184,10 +186,13 @@ header a {
 }
 .campus {
   border-top: 1px solid #e0e2e2;
+  border-bottom: 1px solid #e0e2e2;
+  margin-bottom: 0.1rem;
   padding: 1rem;
 }
 
 .keynote {
+  border-top: 1px solid #e0e2e2;
   background-color: #d8d8d8;
   padding: 1rem;
 }
@@ -202,7 +207,7 @@ header a {
   width: 65%;
 }
 
-/* learning & courses */
+/* Learning & Courses section */
 
 .learning {
   background-color: #eaebec;
@@ -294,8 +299,6 @@ header a {
   margin-right: 1.5rem;
 }
 
-/* margin: 2rem 1.5rem; */
-
 .main-thesis .main-vid video {
   width: 100%;
   height: auto;
@@ -308,6 +311,8 @@ header a {
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
+
+/* Featured thesis' */
 
 .featured-thesis {
   width: 40%;
@@ -356,7 +361,7 @@ header a {
   margin-right: 1rem;
 }
 
-/* footer */
+/* Footer section */
 
 footer {
   display: flex;
