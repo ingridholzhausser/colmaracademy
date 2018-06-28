@@ -10,6 +10,7 @@ body {
 }
 
 a {
+  color: #4c4c4c;
   text-decoration: none;
 }
 
@@ -20,7 +21,8 @@ header {
   align-items: center;
   height: 4rem;
   padding: 0 1.5rem;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255); /* #ffffff; */
+  height: 4rem;
 }
 
 header .desktop-logo {
@@ -40,7 +42,6 @@ header .mobile-menu {
 
 header .desktop-logo {
   text-transform: uppercase;
-  color: #9b9b9b;
   font-size: 1rem;
 }
 
@@ -48,9 +49,14 @@ header .mobile {
   display: none;
 }
 
+header .logo-text a {
+  text-transform: uppercase;
+  color: #828282;
+}
+
 header .logo-text span {
   text-transform: uppercase;
-  color: #4a4a4a;
+  color: #4c4c4c;
   font-weight: bold;
 }
 
@@ -60,23 +66,45 @@ header nav ul {
 
 nav ul li {
   padding: 0 1rem;
-  color: #4a4a4a;
 }
 
 header a {
   font-size: 0.9rem;
-  color: #4a4a4a;
+  color: #4c4c4c;
+}
+
+ul li a:hover {
+  opacity: 0.7;
+}
+
+header .desktop-logo:hover {
+  opacity: 0.7;
 }
 
 @media only screen and (max-width: 634px) {
+
+/*
   header {
-    position: fixed;
-    height: 42.5px;
-    z-index: 1;
-    width: 100%;
-    border-bottom: solid 1px #c6c1c1;
-    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    padding: 0 1.5rem;
+    background-color: rgb(255, 255, 255);  #ffffff;
+    height: 4rem;
   }
+  */
+
+/*
+header {
+  position: fixed;
+  height: 42.5px;
+  z-index: 1;
+  width: 100%;
+  border-bottom: solid 1px rgb(191, 193, 193);  #bfc1c1;
+  background-color: rgb(255, 255, 255);  #ffffff;
+  height: 4rem;
+}
+*/
 
   header .desktop {
     display: none;
@@ -88,16 +116,16 @@ header a {
 
   header .mobile {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 100%;
-    margin-right: 2.5rem;
+    margin: 0 2.5rem 0 0;
   }
 
   header .mobile ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-self: center;
     width: 100%;
   }
 }
@@ -108,7 +136,7 @@ header a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #d8d8d8;
+  background-color: #c8c8c8;
 }
 
 .banner-img {
@@ -129,20 +157,20 @@ header a {
 }
 
 .calltoaction h1 {
-  color: #4a4a4a;
+  color: #4c4c4c;
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
 .calltoaction h3 {
-  color: #4a4a4a;
+  color: #4c4c4c;
   font-size: 1rem;
   font-weight: 600;
 }
 
 .calltoaction-button {
-  background-color: #4a4a4a;
+  background-color: #4c4c4c;
   text-align: center;
   padding: 0.5rem 0;
   width: 18rem;
@@ -151,7 +179,12 @@ header a {
 }
 
 .calltoaction-button a {
-  color: #fff;
+  color: rgb(255, 255, 255); /* #ffffff; */
+}
+
+.calltoaction-button:hover {
+  opacity: 0.7;
+  /* background-color: #4a90e2; */
 }
 
 @media only screen and (max-width: 634px) {
@@ -159,7 +192,7 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #d8d8d8;
+    background-color: #c8c8c8;
   }
 
   .banner-img {
@@ -173,7 +206,7 @@ header a {
   }
 
   .calltoaction-button {
-    background-color: #9b9b9b;
+    background-color: #4c4c4c;
     text-align: center;
     padding: 0.5rem 0;
     width: 18rem;
@@ -188,7 +221,7 @@ header a {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #f3f5f5;
+  background-color: #e8e8e8;
 }
 
 .main-info {
@@ -202,7 +235,7 @@ header a {
 
 .teaser {
   margin: 2rem 0;
-  color: #4a4a4a;
+  color: #4c4c4c;
 }
 
 .teaser h2 {
@@ -222,6 +255,10 @@ header a {
   margin-top: 2rem;
 }
 
+.teaser h2 a:hover {
+  color: #828282;
+}
+
 @media only screen and (max-width: 634px) {
   .main-info {
     display: none;
@@ -233,7 +270,7 @@ header a {
 .info-desktop {
   width: 40%;
   margin: 2rem 0;
-  border-left: 1px solid #e0e2e2;
+  border-left: 1px solid #c8c8c8;
 }
 
 .info-mobile {
@@ -242,19 +279,19 @@ header a {
 
 .info h3 {
   font-size: 1rem;
-  color: #4a4a4a;
+  color: #4c4c4c;
   font-weight: 600;
 }
 
 .info p {
   font-size: 0.8rem;
-  color: #4a4a4a;
+  color: #4c4c4c;
   font-weight: lighter;
 }
 
 .info a {
-  font-size: 1rem;
-  color: #4a90e2;
+  font-size: 0.8rem;
+  color: #2984f2;
   font-weight: 400;
 }
 
@@ -265,20 +302,19 @@ header a {
 }
 
 .info-desktop .orientation {
-  border-bottom: 1px solid #e0e2e2;
+  border-bottom: 1px solid #c8c8c8;
   margin-bottom: 0.1rem;
   padding: 0 1rem 1rem 1rem;
 }
 .info-desktop .campus {
-  border-top: 1px solid #e0e2e2;
-  border-bottom: 1px solid #e0e2e2;
+  border-top: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
   margin-bottom: 0.1rem;
   padding: 1rem;
 }
 
 .info-desktop .keynote {
-  border-top: 1px solid #e0e2e2;
-  background-color: #d8d8d8;
+  border-top: 1px solid #c8c8c8;
   padding: 1rem;
 }
 
@@ -292,6 +328,22 @@ header a {
   width: 65%;
 }
 
+.info-desktop .orientation:hover {
+  background-color: #c8c8c8;
+}
+
+.info-desktop .campus:hover {
+  background-color: #c8c8c8;
+}
+
+.info-desktop .keynote:hover {
+  background-color: #c8c8c8;
+}
+
+.info a:hover {
+  color: #036ff0;
+}
+
 @media only screen and (max-width: 634px) {
   .info-desktop {
     display: none;
@@ -302,7 +354,7 @@ header a {
     flex-direction: column;
     width: 100%;
     margin: 2rem 0 0 0;
-    border-bottom: 1px solid #e0e2e2;
+    border-bottom: 1px solid #c8c8c8;
   }
 
   .mobile .info {
@@ -347,9 +399,9 @@ header a {
 /* Learning & Courses section */
 
 .learning-desktop {
-  background-color: #eaebec;
+  background-color: #d8d8d8;
   padding: 2rem 4.5rem;
-  color: #4a4a4a;
+  color: #4c4c4c;
 }
 
 .learning-mobile {
@@ -368,8 +420,8 @@ header a {
 }
 
 .course-desktop {
-  background-color: #fff;
-  color: #4a4a4a;
+  background-color: rgb(255, 255, 255); /* #ffffff; */
+  color: #4c4c4c;
   width: 30%;
 }
 
@@ -379,10 +431,34 @@ header a {
   margin: 0 2rem 2rem 0;
 }
 
+.software:hover {
+  background-color: #e8e8e8;
+}
+
+.computerart:hover {
+  background-color: #e8e8e8;
+}
+
+.design:hover {
+  background-color: #e8e8e8;
+}
+
 .data,
 .business,
 .marketing {
   margin: 0 2rem 0 0;
+}
+
+.data:hover {
+  background-color: #e8e8e8;
+}
+
+.business:hover {
+  background-color: #e8e8e8;
+}
+
+.marketing:hover {
+  background-color: #e8e8e8;
 }
 
 .course-desktop img {
@@ -422,10 +498,10 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f5f4f5;
-    color: #4a4a4a;
+    background-color: #f8f8f8;
+    color: #4c4c4c;
     padding: 2rem 1rem 2rem 1rem;
-    border-bottom: 1px solid #e0e2e2;
+    border-bottom: 1px solid #c8c8c8;
   }
 
   .learning-mobile h2 {
@@ -439,7 +515,7 @@ header a {
   }
 
   .course-mobile {
-    background-color: #d8d8d8;
+    background-color: rgb(216, 216, 216); /* #d8d8d8; */
     margin-bottom: 0.5rem;
     text-align: left;
     width: 100%;
@@ -453,9 +529,9 @@ header a {
 /* thesis section */
 
 .thesis-desktop {
-  background-color: #f3f5f5;
+  background-color: #e4e4e4;
   padding: 2rem 0 2rem 1.5rem;
-  color: #4a4a4a;
+  color: #4c4c4c;
 }
 
 .thesis-mobile {
@@ -485,7 +561,7 @@ header a {
 
 .main-thesis h3 {
   font-size: 1rem;
-  color: #4a4a4a;
+  color: #4c4c4c;
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
@@ -499,8 +575,8 @@ header a {
   .thesis-mobile {
     display: flex;
     flex-direction: column;
-    background-color: #f3f5f5;
-    color: #4a4a4a;
+    background-color: #f1f1f1;
+    color: #4c4c4c;
     padding: 2rem 0 1.5rem 0;
   }
 
@@ -517,7 +593,7 @@ header a {
   .main-thesis .main-vid video {
     width: 100%;
     height: auto;
-    border: 1px solid #e0e2e2;
+    border: 1px solid #c8c8c8;
   }
 }
 
@@ -529,13 +605,13 @@ header a {
 
 .thesis h3 {
   font-size: 1rem;
-  color: #4a4a4a;
+  color: #4c4c4c;
   font-weight: 600;
 }
 
 .thesis p {
   font-size: 0.8rem;
-  color: #4a4a4a;
+  color: #4c4c4c;
   font-weight: lighter;
 }
 
@@ -558,10 +634,18 @@ header a {
 .fisma {
   margin-bottom: 0.1rem;
   padding: 1rem;
-  background-color: #d8d8d8;
 }
+
 .now-then {
   padding: 1rem;
+}
+
+.fisma:hover {
+  background-color: #c8c8c8;
+}
+
+.now-then:hover {
+  background-color: #c8c8c8;
 }
 
 .thesis img {
@@ -574,12 +658,12 @@ header a {
 
 .footer-desktop footer {
   display: flex;
-  background-color: #f3f5f5;
+  background-color: #e4e4e4;
   padding: 1rem 1rem 2rem 1.5rem;
   font-size: 0.6rem;
-  color: #4a4a4a;
+  color: #4c4c4c;
   font-weight: lighter;
-  border-top: 1px solid #e0e2e2;
+  border-top: 1px solid #c8c8c8;
 }
 
 .footer-mobile footer {
@@ -599,7 +683,7 @@ footer ul li {
 }
 
 footer a {
-  color: #4a4a4a;
+  color: rgb(74, 74, 74); /* #4a4a4a; */
 }
 
 @media only screen and (max-width: 634px) {
@@ -609,10 +693,10 @@ footer a {
 
   .footer-mobile footer {
     display: flex;
-    background-color: #f3f5f5;
+    background-color: #e4e4e4;
     padding: 1rem 0;
     font-size: 0.9rem;
-    color: #4a4a4a;
+    color: rgb(74, 74, 74); /* #4a4a4a; */
     font-weight: 400;
   }
 
