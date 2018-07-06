@@ -717,6 +717,7 @@ header .desktop-logo:hover {
 
 .footer-desktop footer {
   display: flex;
+  justify-content: center;
   background-color: #e4e4e4;
   padding: 1rem 1rem 2rem 1.5rem;
   font-size: 0.6rem;
@@ -743,6 +744,19 @@ footer ul li {
 
 footer a {
   color: rgb(74, 74, 74); /* #4a4a4a; */
+}
+
+footer .social {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .social i{
+  margin-right: 0.7rem;
+}
+
+footer .social i:hover {
+  opacity: 0.5;
 }
 
 @media only screen and (max-width: 634px) {
